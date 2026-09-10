@@ -27,7 +27,7 @@ function App() {
     {item}
   </Typography>
 ))}
-    </Box>
+    </Box> 
   );
 }
 

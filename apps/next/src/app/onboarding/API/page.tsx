@@ -163,12 +163,12 @@ export default function Home() {
             <p style={{ fontSize: "20px" }}>{result.address}</p>
             <p style={{ marginTop: "25px" }}>現在の天気</p>
             <p style={{ fontSize: "20px" }}>
-              {result.weatherText}　{result.temperature}
+              {result.weatherText} {result.temperature}
               {result.unit}
             </p>
           </>
         ) : (
-          <p style={{ color: "#888" }}>郵便番号を入力してください。</p>
+          <p style={{ color: "#888" }}></p>
         )}
       </div>
     </div>
